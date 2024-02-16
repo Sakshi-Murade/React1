@@ -1,0 +1,87 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a background color for the entire body */
+  body {
+    background-color: #f8f8f8;
+    font-family: 'Roboto', sans-serif;
+    background-image:url('https://tse1.mm.bing.net/th?id=OIP.cB7chSPP-AUHapQQeS9ApAHaFV&pid=Api&P=0&h=180');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  /* Apply some styles to the root element */
+  #root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  /* Apply some styles to anchor tags */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Apply some styles to headings */
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  /* Apply some styles to buttons */
+  button {
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  /* Apply some styles to the primary button */
+  .primary-button {
+    background-color: #2196F3;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  /* Apply some styles to the navigation bar */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Apply some styles to the logo */
+  .nav-logo-container img {
+    height: 40px; /* Adjust the height as needed */
+  }
+  
+  /* Apply some styles to the navigation links */
+  .Navbar-links-container a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  
+  /* Apply some styles to the cart icon */
+  .Navbar-cart-icon {
+    font-size: 24px;
+    color: #fff;
+    margin-left: 10px;
+  }
+  
+  /* Apply some styles to the menu icon */
+  .Navbar-menu-container {
+    cursor: pointer;
+    font-size: 24px;
+    color: #fff;
+  }
+  
